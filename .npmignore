@@ -1,0 +1,12 @@
+test/
+context.txt
+doc.txt
+data/
+logs/
+keys/
+*.log
+.DS_Store
+.env*
+coverage/
+.nyc_output/
+.github/

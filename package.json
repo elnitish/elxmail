@@ -1,0 +1,37 @@
+{
+  "name": "elxmail",
+  "version": "0.1.0",
+  "description": "Open-source cold email delivery protocol SDK for Node.js. Handles rotation, throttling, warm-up, bounce processing, and deliverability engineering behind init() + send().",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test test/unit.test.js test/integration.test.js",
+    "test:unit": "node --test test/unit.test.js",
+    "test:integration": "node --test --test-timeout=10000 test/integration.test.js",
+    "test:smoke": "node test/ethereal.js"
+  },
+  "keywords": [
+    "email",
+    "cold-email",
+    "smtp",
+    "deliverability",
+    "email-rotation",
+    "throttling",
+    "warm-up",
+    "bounce-handling",
+    "dkim",
+    "spf",
+    "dmarc"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "nodemailer": "^8.0.5"
+  },
+  "devDependencies": {
+    "smtp-server": "^3.18.4"
+  }
+}

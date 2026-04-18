@@ -1,0 +1,18 @@
+node_modules/
+data/
+logs/
+keys/
+*.log
+.DS_Store
+.env
+.env.*
+coverage/
+.nyc_output/
+
+# Claude Code / AI assistant files
+.claude/
+.claude.json
+CLAUDE.md
+.claude-*
+context.txt
+doc.txt
