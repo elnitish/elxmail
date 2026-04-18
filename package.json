@@ -20,13 +20,49 @@
     "bounce-handling",
     "dkim",
     "spf",
-    "dmarc"
+    "dmarc",
+    "nodemailer",
+    "self-hosted",
+    "email-marketing",
+    "outbound"
   ],
-  "author": "",
+  "author": "elnitish <YOUR_EMAIL@example.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elnitish/elxmail.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elnitish/elxmail/issues"
+  },
+  "homepage": "https://github.com/elnitish/elxmail#readme",
   "engines": {
     "node": ">=18.0.0"
   },
+  "files": [
+    "index.js",
+    "errors.js",
+    "events.js",
+    "defaults.js",
+    "analytics/",
+    "bounce/",
+    "classifier/",
+    "config/",
+    "content/",
+    "dns/",
+    "fbl/",
+    "logger/",
+    "queue/",
+    "rotation/",
+    "suppression/",
+    "throttle/",
+    "tracking/",
+    "transport/",
+    "utils/",
+    "warmup/",
+    "README.md",
+    "LICENSE"
+  ],
   "dependencies": {
     "better-sqlite3": "^12.9.0",
     "nodemailer": "^8.0.5"
